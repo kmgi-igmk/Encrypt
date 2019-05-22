@@ -72,7 +72,5 @@ public class CipherUtil {
     //暗号化済みの文字列と、比較対象文字列を比較する
     public static final boolean passCheck(String inputPass, String encodedPass) {
     	return encodedPass.equals(inputPass);
-
     }
-
 }
